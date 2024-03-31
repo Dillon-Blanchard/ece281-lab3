@@ -105,7 +105,7 @@ begin
 	  begin
 	    w_reset <= '1';
         wait for k_clk_period*1;
-            assert  w_stoplight = "10000000" report "wrong reset" severity error;
+            assert  w_lights = "100000" report "wrong reset" severity error;
             
        w_reset <= '0';
             wait for k_clk_period*1;
