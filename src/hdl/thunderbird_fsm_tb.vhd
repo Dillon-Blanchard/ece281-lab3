@@ -83,9 +83,9 @@ begin
 	o_lights_L(0) => w_lights(3),
 	o_lights_L(1) => w_lights(4),
 	o_lights_L(2) => w_lights(5),
-	o_lights_L(0) => w_lights(0),
+	o_lights_L(2) => w_lights(2),
 	o_lights_L(1) => w_lights(1),
-	o_lights_L(2) => w_lights(2)
+	o_lights_L(0) => w_lights(0)
 	);
 	-----------------------------------------------------
 	
